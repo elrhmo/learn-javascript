@@ -259,3 +259,71 @@ function save3() {
 }
 //28. Congrats & recap
 //**********************************************
+
+
+//2. Practice time - part 1
+//**********************************************
+//2.1 Variable practice
+// Working with variables
+//**********************************************
+let firstName = "Elliot"
+let lastName = "Moses"
+
+//concatenate variables 
+let fullName = firstName + " " + lastName 
+
+//log fullName to the console 
+console.log(fullName)
+
+
+//2.2 Concatenate two strings in a function
+// Create a function that logs out "hi there, Linda!" when called using the two variables below
+//**********************************************
+let nameVar = "Linda"
+let greetingVar = "Hi there"
+
+function greetingFunc() {
+    console.log(greetingVar + ", " + nameVar + "!")
+}
+
+greetingFunc()
+
+
+//2.3 Incrementing and decrementing
+//Practice incrementing and decrementing - use variable 'let myPoints = 3' and then call the following function as many times as needed console log the variable as 10 points 
+//**********************************************
+let myPointsVar = 3
+
+function add3Points() {
+    myPointsVar +=3 //+= is an assignment operator and it's the same as 'myPointsVar = myPointsVar + 3'
+}
+
+function remove1Point() {
+    myPointsVar -=1 
+    
+}
+console.log(myPointsVar)
+add3Points()
+add3Points()
+add3Points()
+remove1Point()
+remove1Point()
+console.log(myPointsVar)
+
+// 2.4 Strings and numbers
+//**********************************************
+// Try to predict what each of the lines will log out
+console.log("2" + 2) // 22
+console.log(11 + 7) // 18
+console.log(6 + "5") // 65
+console.log("My points: " + 5 + 9) // My points: 59
+console.log(2 + 2) // 4
+console.log("11" + "14") // 1114
+
+// 2.5 Rendering an error message
+//**********************************************
+// see folder for result... P:\Project\1969-BP\05_Scratch\Scratch_EM\js\learn-javascript\2. Practice time - part 1\05. Rendering an error message
+
+// 2.6 Calculator challenge 
+//**********************************************
+// see folder for result... P:\Project\1969-BP\05_Scratch\Scratch_EM\js\learn-javascript\2. Practice time - part 1\06. Calculator challenge
