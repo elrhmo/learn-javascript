@@ -7,6 +7,6 @@ console.log(randomNumber)
 
 What does Math.random() do?
 
-Your answer: 
+Your answer: generates a random number between 0 and 1, but not including 1
 
 */

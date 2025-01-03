@@ -1,7 +1,14 @@
-let player = {
+let player = { //player is an example of a javascript object
     name: "Per",
     chips: 200,
+    sayHello: function() { // methods are functions inside an object
+        console.log("hello!")
+    }
 }
+
+player.sayHello()
+
+// console.log() // in this case 'console' is the object and 'log()' is the method
 
 let cards = []
 let sum = 0
