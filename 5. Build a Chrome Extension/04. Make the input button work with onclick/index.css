@@ -15,7 +15,8 @@ input {
 button {
     background: #5f9341;
     color: white;
-    padding: 10px 20px;
+    padding: 10px 20px; 
+    /* first value on padding above is for the y-axis and second value is for the x-axis */
     border: none;
     font-weight: bold;
 }

@@ -6,7 +6,9 @@ inputBtn.addEventListener("click", function() {
     // Push the value from the inputEl into the myLeads array 
     // instead of the hard-coded "www.awesomeleads.com" value
     // Google -> "get value from input field javascript"
-    myLeads.push("www.awesomelead.com")
+
+    console.log(inputEl.value)
+    myLeads.push(inputEl.value)
     console.log(myLeads)
 })
 
